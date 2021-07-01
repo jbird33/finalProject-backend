@@ -20,6 +20,24 @@ module.exports = {
         username: "alyhansen",
         password: "husbandrocks",
         email: "alyhansen@live.com",
+      },
+      {
+        name: "Alyjah Miller",
+        username: "alyjahscool",
+        password: "dadnmom",
+        email: "alyjah@aol.com",
+      },
+      {
+        name: "Thiah Miller",
+        username: "thiahscool",
+        password: "dadnmom",
+        email: "thiah@aol.com",
+      },
+      {
+        name: "Nonah Miller",
+        username: "noahscool",
+        password: "dadnmom",
+        email: "noahjadon10@gmail.com",
       }
     ])
   },
