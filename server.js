@@ -10,14 +10,15 @@ app.use(methodOverride('_method'));
 
 // This is so we don't get the blocked by CORS policy when trying to connect FrontEnd -------------
 
-// const cors = require('cors');
-// const corsOptions = {
-//     origin: ['http://localhost:3000'],
-//     methods: "GET,POST,PUT,DELETE",
-//     credentials: true, 
-//     optionsSuccessStatus: 200
-//   }
-//   app.use(cors(corsOptions))
+const cors = require('cors');
+
+const corsOptions = {
+    origin: ['http://localhost:3000'],
+    methods: "GET,POST,PUT,DELETE",
+    credentials: true, 
+    optionsSuccessStatus: 200
+  }
+  app.use(cors(corsOptions))
 
 
 // I am getting an error for the above code so commenting out for now ----------------------------
